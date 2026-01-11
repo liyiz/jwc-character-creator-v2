@@ -31,7 +31,7 @@
   position: fixed;
   top: 128px;
   bottom: 64px;
-  right: 0;
+  left: 55%;
   min-height: 500px;
 }
 
