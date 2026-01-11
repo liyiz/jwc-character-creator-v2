@@ -38,3 +38,12 @@
 .controlColumn {
   max-width: 50%;
 }
+
+.perspectiveBar {
+  position: fixed;
+  left:0; right:0;
+  bottom: 0;
+  padding-bottom: 64px;
+  height: 40%;
+  background-color: hsl(195deg, 20%, 86%);
+}
