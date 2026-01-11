@@ -1,5 +1,6 @@
 .buttonRow {
-    overflow-x: scroll;
-    white-space: nowrap;
-    padding: 16px 0;
+    overflow: auto; /* So if there is no overflow, there's not scrollbar present */
+    white-space: nowrap; /* Ensures that inline elements don't wrap causing two rows */
+    padding: 16px 22px; /* Reintroduces the padding from ControlPane component */
+    margin: 0 -22px -22px; /* We're referencing the 24px padding from ControlPane, but adding 2px margin so the toggle buttons have a visible stroke when clipped by scroll context. */
 }
